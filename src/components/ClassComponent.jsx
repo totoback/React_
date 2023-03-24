@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+//class형 함수
 class ClassComponent extends Component{
   render() {
     return(

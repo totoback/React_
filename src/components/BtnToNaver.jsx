@@ -1,5 +1,6 @@
 import { Component } from "react";
 
+//class형 함수
 class BtnToNaver extends Component {
   render() {
     return (

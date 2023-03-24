@@ -1,5 +1,6 @@
 import { Component } from "react";
 
+// class 형 함수
 class FunctionalComponent extends Component{
   render(){
     return(

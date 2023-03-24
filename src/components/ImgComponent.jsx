@@ -1,6 +1,7 @@
 import Img from '../joung.png';
 import { Component } from "react";
 
+// class형 함수
 class ImgComponent extends Component{
   render(){
     return(
