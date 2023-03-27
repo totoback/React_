@@ -6,18 +6,30 @@ import BtnToNaver from './components/BtnToNaver';
 import ImgComponent from './components/ImgComponent';
 import ClassComponent from './components/ClassComponent';
 import FunctionalComponent from './components/FunctionComponent';
+import Inline from './components/Inline';
+import EventHandle from './components/Eventhandle';
+import Ex from './components/Ex';
+import State from './components/State';
+import State2 from './components/State2';
+import Counter from './components/Counter';
+import Condition from './components/Condition';
+import Counter2 from './components/Counter2';
+import ClassState from './components/ClassState';
+import StateVar from './components/StateVar';
 
 
-function App() {
+export default function App() {
+  // js 함수 영역
   return (
+    // html영역
     <div className="App">
-      <MainHeader/>
-      <ImgComponent/>
-      <BtnToNaver/>
-      <ClassComponent />
-      <FunctionalComponent />
+      {/* <State2/> */}
+      {/* <Counter2/> */}
+      {/* <State /> */}
+      {/* <ClassState/> */}
+      <StateVar/>
+      {/* <Condition/> */}
     </div>
   );
 }
 
-export default App;
