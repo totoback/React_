@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 
 //  랜덤 프로그램 만들기 실습
-export default function NumberEx() {
+export default function NumberRandom() {
   const [again, setAgain] = useState(true);
   const textEl = useRef();
   const answerInput = useRef();
