@@ -9,6 +9,7 @@ import PracticeTimerRander from './components/PracticeTimerRander';
 import UseEffectFetch from './components/UseEffectFetch';
 import UsingUseMemo from './/components/UsingUseMemo';
 import TestStyled from './components/TestStyled';
+import BackendData from './components/BackendData';
 
 export default function App() {
   // js 함수 영역
@@ -16,7 +17,7 @@ export default function App() {
     // html영역
     <div className="App">
       {/* <PracticeTimerRander /> */}
-      <UseEffectFetch />
+      <BackendData />
     </div>
   );
 }
