@@ -1,3 +1,4 @@
+//백엔드에서 데이터 받아오기 실습
 import React, { useEffect, useState } from 'react';
 import ProfileComponent from './ProfileComponent';
 
@@ -17,6 +18,7 @@ export default function UseEffectFetch() {
     console.log(data);
     setDataArr((cur) => data);
   }
+
   useEffect(() => {
     fetchData();
   }, []);

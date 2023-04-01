@@ -1,5 +1,4 @@
 /* eslint-disable */
-import React, { useState } from 'react';
 import './App.css';
 import PracticeOne from './components/PracticeOne';
 import PracticeTwo from './components/PracticeTwo';
@@ -17,7 +16,7 @@ export default function App() {
     // html영역
     <div className="App">
       {/* <PracticeTimerRander /> */}
-      <TestStyled />
+      <UseEffectFetch />
     </div>
   );
 }
